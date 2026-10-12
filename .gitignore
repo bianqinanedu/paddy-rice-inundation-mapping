@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# Temporary / derived raster sidecars (regenerable)
+*.aux.xml
+*.ovr
+*.tif.aux.xml
+
+# Large GeoTIFF maps (vector versions paddyricemap-*.shp are committed instead)
+paddyricemap-*.tif
+paddyricemap-*.tif.vat.*
+paddyricemap-*.tif.ovr
+
+# ArcGIS lock files
+*.sr.lock
+*.lock
+
+# Original zipped copy of the code (already extracted to UAV代码/)
+UAV代码.zip
